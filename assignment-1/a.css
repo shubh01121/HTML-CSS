@@ -1,0 +1,52 @@
+
+body{
+    background-color: lightblue;
+    border: 1px solid black;
+    border-width: 2px;
+    padding: 0.5%;
+}
+h1{
+    color: red;
+    font-size: 250%;
+}
+#c1{
+    color: brown;
+    font-family: 'M PLUS 1p', sans-serif;
+    font-size: larger;
+}
+.o1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+h2{
+    color: red;
+    font-style: italic;
+}
+.c2{
+    text-decoration: line-through;
+    font-weight: bold;
+}
+.c3{
+    background-color: yellow;
+    font-weight: bold;
+}
+.c4{
+    text-decoration: underline;
+    font-style: italic;
+}
+#c5{
+    font-family: 'Prosto One', cursive;
+    color: brown;
+}
+.c6{
+    color: rgb(6, 161, 52);
+    font-size: larger;
+}
+a{
+    background-color: yellow;
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+    margin: 2px;
+    font-size: larger;    
+}
