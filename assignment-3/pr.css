@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: gray;
+    padding: 6px;
+} 
+.child1{
+    border: 5px solid orangered;
+    width: 450px;
+    height: 150px;
+    border-radius: 9px;
+    margin: auto;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 8px 8px rgb(146, 15, 58);
+}
+.wel{
+    text-align: center;
+    color: rgb(112, 17, 10);
+    font-size: 25px;
+    font-weight: bolder;
+    margin: 30px;
+    font-style: italic;
+    text-shadow: 2px 2px rgba(214, 11, 11, 0.705);   
+}
+#cont{
+    border: 8px solid green;
+    display: flex;
+    flex-wrap: wrap;
+}
+.exct{
+    border: 8px solid red;
+    border-radius: 15px;
+    display: inherit;
+    width: 450px;
+    height: 12ex;
+    background-color: greenyellow;
+    margin-top: 20em;
+    margin-left: 25em;
+    box-shadow: 8px 8px violet;
+    position: fixed;
+}
+
+.mon{
+    text-align: center;
+    color: rgb(233, 34, 20);
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 1em;
+    margin-top: 0.5em;
+    font-style: italic;
+    text-shadow: 1px 1px black;
+}
+.per{
+    text-align: center;
+    color: rgb(233, 34, 20);
+    font-size: 18px;
+    font-weight: bolder;
+    margin-left: 2em;
+    margin-top: 0.6em;
+    font-style: italic;
+    text-shadow: 1px 1px black;
+}
+.child2, .child3, .child4, .child5{
+    border: 8px solid red;
+    border-radius: 15px;
+    width: 300px;
+    box-shadow: 8px 8px rgb(146, 15, 58);
+    height: 250px;
+    margin: 5px;
+    background-color: white;
+    margin-bottom: 2em;
+}
+.child3{
+    margin-left: 40em;
+}
+.child4{
+    margin-top: 6em;
+}
+.child5{
+    margin-top: 6em;
+    margin-left: 40em;
+    text-align: center;
+}
+label{
+    color: rgb(133, 16, 8);
+    font-size: 18px;
+    font-weight: bolder;
+    font-style: italic;
+    text-shadow: 1px 1px rgb(235, 16, 16);
+}
+input{
+    text-align: center;
+    box-sizing: 2px;
+    width: 130px;
+}
+.sub{
+    border-radius: 15px;
+    width: 90px;
+    background-color: rgb(245, 8, 8);
+}
+img{
+    height: 160px;
+    padding: 8px;
+    box-shadow: -2px 1px 2px 0px;
+    margin: 20px;
+}
+.store{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    margin: 30px;
+}
+.address, .ser, .rate{
+    text-align: center;
+    color: rgb(43, 8, 43);
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: 15px;
+    font-style: italic;
+    text-shadow: 1px 1px red;
+}
+h3{
+    text-align: center;
+    font-size: 20px;
+}
+.cont1{
+    border: 9px solid rgb(10, 10, 61);
+    background-color: green;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2em;
+    row-gap: 2em;
+    flex-shrink: initial;
+    margin-left: 15.5em;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+.store{
+    text-align: center;
+    text-shadow: 1px 1px;
+    padding-left: 11em;
+    padding-right: 8em;
+    font-weight: bolder;
+}
+h3{
+    text-shadow: 1px 1px;
+    margin: 20px;
+}
+.fruit, .vegetable, .other{
+    background-color: rgb(245, 245, 83);
+    padding: 5px;
+}
+.fruit, .vegetable{
+    width: 45%;
+    margin: 5px;
+    height: 280px;
+}
+.other{
+    height: 280px;
+    width: 100%;
+    margin: 5px;
+}
+.veg,.fr,.oth{
+    text-align: center;
+    text-shadow: 1px 0px;
+    font-style: italic;
+}
+
+
+
