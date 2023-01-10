@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+body{
+    background-color: cyan;
+}
+.nav{
+    border: 1px solid black;
+    position: sticky;
+    margin: 10px;
+    color: white;
+    background-color: black;
+
+    display: flex;
+    place-items: inherit;
+    height: 70px;
+    flex-shrink: inherit;
+    flex: auto;
+    /* justify-content: center; */
+    /* justify-items: center; */
+}
+.nav h2{
+    /* margin-right: 25em; */
+    /* position: relative; */
+    padding: 15px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+a{
+    /* position: relative; */
+    /* left: 700px; */
+    margin: 5px;
+    background-color: white;
+    border-radius: 10px;
+    width: 85px;
+    height: 30px;
+    text-align: center;
+    margin-top: 15px;
+    color: black;
+    text-decoration: none;
+    padding-top:10px ;
+}
+    
+.sin{
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* padding: 25px;
+    margin-left: 15em; */
+    align-items: center;
+    text-align: center;
+}
+.flex-container{
+    /* border-radius: 10px; */
+    display: flex;
+    place-items: inherit;
+    margin-top: -50px;
+}
+.p1{
+    border: 1px solid black;
+    margin: 80px;
+    height: 350px;
+    line-height: 25px;
+    text-align: center;
+    background-image: linear-gradient(rgb(224, 190, 216), rgb(111, 99, 226), yellow);
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+    /* width: ; */
+    
+}
+h4{
+    padding: 10px;
+    font-size: larger;
+}
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+img{
+    height: 100px;
+    width: 180px;
+}
+
+.footer{
+    background-color: rgb(187, 178, 178);
+    width: 100%;
+    height: 50px;
+    /* display: block; */
+    text-align: center;
+    font-size: 35px;
+    /* margin-left: 5px; */
+    font-weight: bolder;
+    margin-top: 0.4em;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    
+}
+
+@media only screen and (max-width: 700px) {
+    .nav{
+    width: 100%;
+    background-color: black;
+    border: 1px solid black;
+    /* position: sticky; */
+    margin: 10px;
+    color: white;
+    /* display: flex; */
+    /* height: 70px; */
+    /* flex-shrink: inherit; */
+    /* flex: auto; */
+    justify-content: center;
+    justify-items: center;
+    }
+    .nav a{
+    float: left;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    display: block;
+    top: 50px;
+    right: 0;
+    /* z-index: 1; */
+    height: 30px;
+    text-align: center;
+    margin-top: 15px;
+    }
+    .art{
+    /* margin-right: 25em; */
+    /* padding: 15px; */
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    }
+    .flex-container{
+    border-radius: 10px;
+    display: flex;
+    place-items: inherit;
+    /* margin-top: -82px; */
+    flex-direction: column;
+    flex-wrap: nowrap;
+    /* align-content: space-around;/ */
+    /* justify-content: space-between; */
+    }
+    .footer{
+    background-color: rgb(187, 178, 178);
+    width: 100%;
+    height: 50px;
+    /* display: block; */
+    text-align: center;
+    font-size: 35px;
+    /* margin-left: 5px; */
+    font-weight: bolder;
+    margin-top: 1.343em;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    }
+    .sin{
+        font-size: xx-large;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        /* padding: 25px; */
+        /* margin-left: 15em; */
+        align-items: center;
+        text-align: center;
+    }
+    .p1{
+        border: 1px solid black;
+        align-items: center;
+        align-content: center;
+        margin: 100px;
+        height: 100%;
+        line-height: 20px;
+        text-align: center;
+        background-image: linear-gradient(rgb(224, 190, 216), rgb(111, 99, 226), yellow);
+        padding: 5px;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+        width: 50%;
+        
+    }
+}
+
+
+
