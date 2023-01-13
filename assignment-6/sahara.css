@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+}
+
+body {
+    background-image: url(./sah/shara.jpg);
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    height: 0px;
+}
+
+.cma {
+    width: 50px;
+    margin: 20px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+    font-size: 13px;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu {
+    width: 30px;
+    margin-right: 70px;
+}
+
+.container2 {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+}
+
+.containbox1 {
+    text-align: left;
+}
+
+.text {
+    position: relative;
+    top: 200px;
+    left: 50px;
+    color: white;
+}
+
+.text h1 {
+    font-size: 80px;
+}
+
+.text p {
+    line-height: 25px;
+}
+
+.btn {
+    width: 180px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    border-style: none;
+}
+
+.containbox2 {
+    display: grid;
+    grid-template-columns: repeat(2, 250px);
+    column-gap: 20px;
+    row-gap: 40px;
+    position: relative;
+    left: 240px;
+}
+
+.container2 img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.container2 img:hover {
+    transform: translateY(-15px);
+}
+
+@media screen and (max-width: 880px) {
+    body{
+        width: 100vw;
+    }
+    .container1 {
+        display: flex;
+        align-items: center;
+        padding: 0px;
+        height: 0px;
+    }
+
+    .cma {
+        width: 20px;
+        margin-top: 60px;
+    }
+
+    nav {
+        text-align: left;
+        margin-top: 25px;
+        position: relative;
+        left: 100px;
+    }
+
+    nav li {
+        margin-right: 5px;
+        font-size: 5px;
+    }
+
+    .menu {
+        width: 15px;
+        position: absolute;
+        left: 245px;
+        top: 8px;
+    }
+
+    .text {
+        top: 8px;
+        left: 0px;
+    }
+
+    .text h1 {
+        font-size: 15px;
+    }
+
+    .text p {
+        line-height: 10px;
+        font-size: 7px;
+    }
+
+    .btn {
+        width: 80px;
+        height: 15px;
+        margin-top: 10px;
+        font-size: 5px;
+    }
+    .containbox2{
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        position: absolute;
+        top: 110px;
+        left: 50px;
+    }
+    .container2 img{
+        width: 180px;
+        height: 100px;
+        border-radius: 10px;
+    }
+}
