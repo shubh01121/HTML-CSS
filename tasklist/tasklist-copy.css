@@ -109,11 +109,15 @@ input{
     top: 20px;
     left: 15px;
 }
+.rectangle p a{
+    text-decoration: none;
+}
 .rectangle span{
     text-align: right;
     padding: 0px 15px 15px 0px ;
     color: #858585;
     position: relative;
+    left: 400px;
     bottom: 10px;
     font-size: 20px;
 }
