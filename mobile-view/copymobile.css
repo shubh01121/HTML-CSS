@@ -102,13 +102,17 @@ input{
 .rectangle p{
     width: 151px;
     height: 26px;
-    font-size: 22px;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 15px;
     text-align: left;
     color: #404040;
     opacity: 1;
 }
 .rectangle span{
-    text-align: right;
+    position: absolute;
+    left: 410px;
+    top: 10px;
     padding: 0px 15px 15px 0px ;
     color: #858585;
 }
